@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154894320-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-154894320-4');
+  </script>
+
+  <!-- meta data -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- og tags -->
+  <meta property="og:title" content="Fran Extremera | Front-End Web Developer" />
+  <meta property="og:description" content="My portfolio website showing what I have done so far. More to come..." />
+  <meta property="og:image" content="http://www.franextremera.com/images/photos/franextremera.jpg" />
+  <meta property="og:url" content="http://www.franextremera.com/" />
+  <meta property="og:site_name" content="Fran Extremera portfolio" />
+
+  <!-- title of site -->
+  <title>Fran Extremera Portfolio</title>
+
+  <!-- For favicon png -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/logos/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/logos/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/logos/favicon-16x16.png">
+  
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <nav class="nav-bar">
+    <ul class="nav-bar__ul nav-bar__ul--home">
+      <li class="nav-bar__item nav-bar__item--brand">
+        <a href="/">
+          <p><span class="capital accent">F</span>ran
+            <span class="capital accent">E</span>xtremera</p>
+        </a>
+      </li>
+      <li class="nav-bar__item nav-bar__item--link"><a href="#header">Home</a></li>
+      <li class="nav-bar__item nav-bar__item--link"><a href="#about">About</a></li>
+      <li class="nav-bar__item nav-bar__item--link"><a href="#portfolio">Portfolio</a></li>
+      <li class="nav-bar__item nav-bar__item--link"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="nav-menu">
+    <div class="nav-menu__bars-container">
+      <div class="nav-menu__bar nav-menu__bar--horizontal nav-menu__bar--bar1"></div>
+      <div class="nav-menu__bar nav-menu__bar--horizontal nav-menu__bar--bar2"></div>
+      <div class="nav-menu__bar nav-menu__bar--horizontal nav-menu__bar--bar3"></div>
+      <div class="nav-menu__bar nav-menu__bar--bar4"></div>
+    </div>
+    
+  </div>
+
+
+  <header id="header" class="header">
+
+    <div class="header__text-box">
+      <p class="header__greeting">
+        Hi<span class="capital accent">,</span> I am
+      </p>
+      <h1 class="header__title">
+        <span class="header__name">
+          <span class="capital accent">F</span>ran
+          <span class="capital accent">E</span>xtremera
+        </span>
+        <br />
+        <span class="header__sub">a
+          <span class="capital accent">F</span>ront
+          <span class="capital accent">E</span>nd Web Developer
+        </span>
+      </h1>
+      <a class="button button--regular" href="#about">About me</a>
+    </div>
+
+  </header>
+
+  <section id="about" class="about">
+
+    <h2 class="about__title">
+      About me
+    </h2>
+    <div class="about__content-box">
+      <div class="about__image-and-text-box">
+        <div class="about__image-and-name-box">
+            
+          <div class="about__image-box">
+            <img class="about__image" src="./images/photos/profile_image.png" alt="profile photo">
+            <p class="about__image-name">This is me!</p>
+          </div>
+
+          <h3 class="about__name">
+            <span class="capital accent">F</span>ran
+            <span class="capital accent">E</span>xtremera
+          </h3>
+
+          <h3 class="about__job-title">
+            <span class="capital accent">F</span>ront
+            <span class="capital accent">E</span>nd Web Developer
+          </h3>
+        </div>
+        
+        <div class="about__text-box">
+          <div class="about__features-row">
+            <div class="about__feature">
+              <svg class="about__icon" viewBox="0 0 352 512">
+                <path d="M176 80c-52.94 0-96 43.06-96 96 0 8.84 7.16 16 16 16s16-7.16 16-16c0-35.3 28.72-64 64-64 8.84 0 16-7.16 16-16s-7.16-16-16-16zM96.06 459.17c0 3.15.93 6.22 2.68 8.84l24.51 36.84c2.97 4.46 7.97 7.14 13.32 7.14h78.85c5.36 0 10.36-2.68 13.32-7.14l24.51-36.84c1.74-2.62 2.67-5.7 2.68-8.84l.05-43.18H96.02l.04 43.18zM176 0C73.72 0 0 82.97 0 176c0 44.37 16.45 84.85 43.56 115.78 16.64 18.99 42.74 58.8 52.42 92.16v.06h48v-.12c-.01-4.77-.72-9.51-2.15-14.07-5.59-17.81-22.82-64.77-62.17-109.67-20.54-23.43-31.52-53.15-31.61-84.14-.2-73.64 59.67-128 127.95-128 70.58 0 128 57.42 128 128 0 30.97-11.24 60.85-31.65 84.14-39.11 44.61-56.42 91.47-62.1 109.46a47.507 47.507 0 0 0-2.22 14.3v.1h48v-.05c9.68-33.37 35.78-73.18 52.42-92.16C335.55 260.85 352 220.37 352 176 352 78.8 273.2 0 176 0z"/>
+              </svg>
+              <hr class="about__feature-line">
+              <p>I enjoy creating things and bringing ideas to life.</p>
+            </div>
+            <div class="about__feature">
+              <svg class="about__icon" viewBox="0 0 640 512">
+                <path d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"/>
+              </svg>
+              <hr class="about__feature-line">
+              <p>I build responsive, clean and modern websites.</p>
+            </div>
+          </div>
+          <div class="about__features-row">
+            <div class="about__feature">
+              <svg class="about__icon" viewBox="0 0 576 512">
+                <path d="M528 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm0 400H303.2c.9-4.5.8 3.6.8-22.4 0-31.8-30.1-57.6-67.2-57.6-10.8 0-18.7 8-44.8 8-26.9 0-33.4-8-44.8-8-37.1 0-67.2 25.8-67.2 57.6 0 26-.2 17.9.8 22.4H48V144h480v288zm-168-80h112c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H360c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8zm0-64h112c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H360c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8zm0-64h112c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H360c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8zm-168 96c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64z"/>
+              </svg>
+              <hr class="about__feature-line">
+              <p>Want to know more? </p>
+              <a class="about__resume-link button button--small" href="http://www.franextremera.com/download/CV-Resume.pdf" target="_blank">Check my resume</a>
+            </div>
+            <div class="about__feature">
+              <svg class="about__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">                
+                <path d="M624 208h-64v-64c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v64h-64c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h64v64c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-64h64c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm-400 48c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"/>
+              </svg>
+              <hr class="about__feature-line">
+              <p>I'm available for hire </p>
+              <a class="about__resume-link button button--small" href="#contact">Contact me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="button button--regular" href="#portfolio">See my projects</a>
+    </div>
+
+
+    </div>
+    <div class="shape-divider shape-divider--bottom">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+
+  <section class="accent-divider"></section>
+
+  <section id="portfolio" class="portfolio">
+
+    <div class="shape-divider shape-divider--top">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+      </svg>
+    </div>
+
+    <h2 class="portfolio__title">
+      My projects
+    </h2>
+    <h3 class="portfolio__subtitle">
+      My projects
+    </h3>
+
+    <div class="portfolio__content-box">
+      <p class="portfolio__text">
+        Here is my portfolio showing the most relevant projects that I have done so far. More to come...
+      </p>
+
+      <div class="projects__container">
+        <div class="project">
+          <img class="project__image project__image--horizontal" src="./images/portfolio/omnifood.jpg" alt="Omnifood project image">
+          <img class="project__image project__image--vertical" src="./images/portfolio/omnifood-v.jpg" alt="Omnifood project image">
+          <div class="project__info">
+            <h4 class="project__title">
+              Omnifood
+            </h4>
+            <p class="project__description">Website for fake food delivery company.</p>
+            <div class="project__tags-container">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">jQuery</span>
+            </div>
+            <div>
+              <a class="button button--small" href="https://github.com/franexmo81/omnifood" target="_blank">View
+                code</a>
+              <a class="button button--small" href="https://franexmo81.github.io/omnifood/" target="_blank">View
+                demo</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="project">
+          <img class="project__image project__image--horizontal" src="./images/portfolio/xauen-clima.jpg" alt="Xauen Clima project image">
+          <img class="project__image project__image--vertical" src="./images/portfolio/xauen-clima-v.jpg" alt="Xauen Clima project image">
+          <div class="project__info">
+            <h4 class="project__title">
+              Xauen Clima
+            </h4>
+            <p class="project__description">Local business website.</p>
+            <div class="project__tags-container">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">JavaScript</span>
+            </div>
+            <div>
+              <a class="button button--small" href="https://github.com/franexmo81/xauen-clima" target="_blank">View
+                code</a>
+              <a class="button button--small" href="https://franexmo81.github.io/xauen-clima/" target="_blank">View
+                demo</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="project">
+          <img class="project__image project__image--horizontal" src="./images/portfolio/sliding-puzzle.jpg" alt="Sliding Puzzle project image">
+          <img class="project__image project__image--vertical" src="./images/portfolio/sliding-puzzle-v.jpg" alt="Sliding Puzzle project image">
+          <div class="project__info">
+            <h4 class="project__title">
+              Sliding Puzzle
+            </h4>
+            <p class="project__description">Sliding puzzle game.</p>
+            <div class="project__tags-container">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">JavaScript</span>
+            </div>
+            <div>
+              <a class="button button--small" href="https://github.com/franexmo81/sliding-puzzle" target="_blank">View
+                code</a>
+              <a class="button button--small" href="https://franexmo81.github.io/sliding-puzzle/" target="_blank">View
+                demo</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="project">
+          <img class="project__image project__image--horizontal" src="./images/portfolio/shopping-list.jpg" alt="Shopping List project image">
+          <img class="project__image project__image--vertical" src="./images/portfolio/shopping-list-v.jpg" alt="Shopping List project image">
+          <div class="project__info">
+            <h4 class="project__title">
+              Shopping List
+            </h4>
+            <p class="project__description">Shopping list webpage.</p>
+            <div class="project__tags-container">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">JavaScript</span>
+            </div>
+            <div>
+              <a class="button button--small" href="https://github.com/franexmo81/shopping-list" target="_blank">View
+                code</a>
+              <a class="button button--small" href="https://franexmo81.github.io/shopping-list/" target="_blank">View
+                demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <img class="project__image project__image--horizontal" src="./images/portfolio/tindog.jpg" alt="Tindog project image">
+          <img class="project__image project__image--vertical" src="./images/portfolio/tindog-v.jpg" alt="Tindog project image">
+          <div class="project__info">
+            <h4 class="project__title">
+              Tindog
+            </h4>
+            <p class="project__description">Promotional webpage for fake app.</p>
+            <div class="project__tags-container">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">Bootstrap</span>
+            </div>
+            <div>
+              <a class="button button--small" href="https://github.com/franexmo81/tindog" target="_blank">View code</a>
+              <a class="button button--small" href="https://franexmo81.github.io/tindog/" target="_blank">View demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <img class="project__image project__image--horizontal" src="./images/portfolio/background-generator.jpg" alt="Background Generator project image">
+          <img class="project__image project__image--vertical" src="./images/portfolio/background-generator-v.jpg" alt="Background Generator project image">
+          <div class="project__info">
+            <h4 class="project__title">
+              Background Generator
+            </h4>
+            <p class="project__description">Random and custom linear gradient background generator with CSS output.</p>
+            <div class="project__tags-container">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">JavaScript</span>
+            </div>
+            <div>
+              <a class="button button--small" href="https://github.com/franexmo81/background-generator"
+                target="_blank">View code</a>
+              <a class="button button--small" href="https://franexmo81.github.io/background-generator/"
+                target="_blank">View demo</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="project">
+          <img class="project__image project__image--horizontal" src="./images/portfolio/drum-kit.jpg" alt="Drum Kit project image">
+          <img class="project__image project__image--vertical" src="./images/portfolio/drum-kit-v.jpg" alt="Drum Kit project image">
+          <div class="project__info">
+            <h4 class="project__title">
+              Drum Kit
+            </h4>
+            <p class="project__description">Just for fun drum kit.</p>
+            <div class="project__tags-container">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">JavaScript</span>
+            </div>
+            <div>
+              <a class="button button--small" href="https://github.com/franexmo81/drum-kit" target="_blank">View
+                code</a>
+              <a class="button button--small" href="https://franexmo81.github.io/drum-kit/" target="_blank">View
+                demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <img class="project__image project__image--horizontal" src="./images/portfolio/pomodoro-clock.jpg" alt="Pomodoro clock project image">
+          <img class="project__image project__image--vertical" src="./images/portfolio/pomodoro-clock-v.jpg" alt="Pomodoro clock project image">
+          <div class="project__info">
+            <h4 class="project__title">
+              Pomodoro Clock
+            </h4>
+            <p class="project__description">Pomodoro clock timer.</p>
+            <div class="project__tags-container">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">JavaScript</span>
+              <span class="project__tag">React</span>
+            </div>
+            <div>
+              <a class="button button--small" href="https://codesandbox.io/s/pomodoro-clock-sc3g7/" target="_blank">View
+                code</a>
+              <a class="button button--small" href="https://sc3g7.csb.app/" target="_blank">View demo</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="project">
+          <img class="project__image project__image--horizontal" src="./images/portfolio/roman-numeral-converter.jpg" alt="Roman Numeral Converter project image">
+          <img class="project__image project__image--vertical" src="./images/portfolio/roman-numeral-converter-v.jpg" alt="Roman Numeral Converter project image">
+          <div class="project__info">
+            <h4 class="project__title">
+              Roman Numeral Converter
+            </h4>
+            <p class="project__description">Roman numeral converter with brief explanation.</p>
+            <div class="project__tags-container">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">JavaScript</span>
+            </div>
+            <div>
+              <a class="button button--small" href="https://github.com/franexmo81/roman-numeral-converter"
+                target="_blank">View code</a>
+              <a class="button button--small" href="https://franexmo81.github.io/Roman-numeral-converter/"
+                target="_blank">View demo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="portfolio__button-box">
+        <a class="button button--regular" href="#contact">Contact Me</a>
+      </div>
+
+      <div class="shape-divider shape-divider--bottom">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+        </svg>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="accent-divider"></section>
+
+  <section id="contact" class="contact">
+
+    <div class="shape-divider shape-divider--top">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+      </svg>
+    </div>
+
+
+    <h2 class="contact__title">
+      Contact me
+    </h2>
+
+    <div class="contact__content-box">
+      <h3 class="contact__subtitle">
+        Get in touch
+      </h3>
+      <div class="contact__image-and-text-box">
+        <div class="contact__image-box">
+          <img class="contact__image" src="./images/photos/contact.jpg" alt="Contact me">
+        </div>
+        <div class="contact__text-box">
+          <div class="contact__text-item contact__text-item--name-and-job-title">
+            <p class="contact__name"><span class="accent">F</span>ran <span class="accent">E</span>xtremera</p>
+            <p class="contact__job-title">Front End Web Developer</p>
+          </div>
+          
+            <div class="contact__text-item">
+              <p><span class="accent">E</span>mail</p>
+              <a href="mailto:franexmo81@hotmail.com">franexmo81@hotmail.com</a>
+            </div>
+            <div class="contact__text-item">
+              <p><span class="accent">W</span>ebsite</p>
+              <a href="http://www.franextremera.com/">www.franextremera.com</a>
+            </div>
+          
+        </div>
+      </div>
+      <div class="contact__social-media-box">
+        <a class="contact__social-media-link button" href="https://github.com/franexmo81" target="_blank">
+          <img class="contact__social-media-logo contact__social-media-logo--github" src="./images/logos/github.svg" alt="Github logo">
+        </a>
+        <a class="contact__social-media-link button" href="https://www.linkedin.com/in/francisco-extremera/" target="_blank">
+          <img class="contact__social-media-logo contact__social-media-logo--linkedin" src="./images/logos/linkedin.svg" alt="Linkedin logo">
+        </a>
+        <a class="contact__social-media-link button" href="https://stackoverflow.com/users/story/12136521" target="_blank">
+          <img class="contact__social-media-logo contact__social-media-logo--stackoverflow" src="./images/logos/stackoverflow.svg" alt="Stack Overflow logo">
+        </a>
+ 
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="footer">
+    <p class="footer__copyright"><span>F</span>ran <span>E</span>xtremera © 2020</p>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
