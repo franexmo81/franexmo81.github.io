@@ -17,3 +17,5 @@ function handleNavBarClick (){
   navBar.classList.remove("nav-bar--visible");
   document.removeEventListener("click", handleNavBarClick);
 }
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
